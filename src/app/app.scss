@@ -14,3 +14,82 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+@import "../assets/fonts/font-icons";
+
+.menu-inner{
+	.header{
+		min-height: auto;
+
+		.toolbar-background{
+			border: none;
+		}
+		.toolbar-content{
+			text-align: center;
+			padding: 20px;
+		}
+		.logo{
+			width: 	145px;
+		}
+	}
+	.user-info{
+		color: #fff;
+		text-align: center;
+		h3{
+			margin-top: 0;
+		}
+		p{
+			margin-top: 0;
+			font-size: 16px;
+		}
+	}
+	.login-block{
+		padding: 0 16px 16px;
+		font-size: 1.4rem;
+		color: #9bb6e0;
+		span{
+			padding: 0 10px;
+		}
+	}
+	.content{
+		background: color($colors, secondary);
+		.item{
+			background: color($colors, secondary);
+			color: #fff;
+			border-bottom: none;
+		}
+		.item-ios{
+			.item-inner{
+				background: none;
+			}
+		}
+	}
+	:after{
+		display: none;
+	}
+	.list-md{
+		margin-top: 0;
+	}
+	.item-block {
+		&:last-child{
+			.item-inner{
+				border-bottom: 1px solid #5d6394;
+			}
+		}
+		&:first-child{
+			.item-inner{
+				border-top: 1px solid #5d6394;
+			}
+		}
+		.item-inner{
+			border-color: #5d6394;
+		}
+	}
+	span[class^="icon-ps-"]{
+		display: inline-block;
+		width: 20px;
+		margin-right: 5px;
+		text-align: center;
+		color: #9bb6e0;
+	}
+}
