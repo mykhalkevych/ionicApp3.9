@@ -1,2 +1,55 @@
 // Styles for all of the user pages:
 // Login, Signup, Support
+page-login {
+  background: url('../../assets/imgs/login-bg.png') no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  .toolbar-background {
+    background: transparent;
+    border: none!important;
+  }
+  ion-content.content {
+    background-color: transparent;
+  }
+
+  .scroll-content{
+    padding: 2rem 3.6rem;
+  }
+
+  .input-field {
+    color: #9bb6e0;
+
+
+    [class^="icon-ps-"], [class*=" icon-ps-"] {
+      font-size: 20px;
+    }
+    .icon-ps-letter {
+      font-size: 14px;
+    }
+  }
+  form {
+    margin-top: 3.5rem;
+    .or {
+      text-align: center;
+      color: #9bb6e0;
+    }
+    [type="submit"] {
+      margin-top: 4rem;
+    }
+  }
+  .bottom-links{
+    margin-top: 2.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+}
+.facebook-btn {
+  font-size: 1.4rem;
+  background-color: #2d4f95;
+}
+.google-btn {
+  font-size: 1.4rem;
+  background-color: #dd4f3d;
+}

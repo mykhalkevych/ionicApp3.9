@@ -93,3 +93,39 @@
 		color: #9bb6e0;
 	}
 }
+
+.input-field {
+	display: flex;
+	align-items: center;
+	height: 4rem;
+	margin-bottom: 5px;
+	color: color($colors, grey);
+	border-bottom: 1px solid;
+	ion-input {
+		height: 100%;
+	}
+	.text-input {
+		margin: 0;
+		height: 100%;
+		font-size: 1.6rem;
+	}
+
+	[class^="icon-ps-"], [class*=" icon-ps-"] {
+		font-size: 20px;
+		width: 20px;
+		margin-right: 1.5rem;
+	}
+}
+.button {
+	height: 4.2rem;
+	font-size: 1.8rem;
+	border-radius: 0.4rem;
+	margin-bottom: 1.4rem;
+	text-transform: initial;
+}
+
+.back-button {
+	background: url("../../assets/imgs/bacKIcon.png") no-repeat center;
+	background-size: contain;
+	margin-left: 1rem;
+}
