@@ -1,8 +1,8 @@
 // Styles for all of the user pages:
 // Login, Signup, Support
-page-login {
-  background: url('../../assets/imgs/login-bg.png') no-repeat;
-
+page-login, page-registration {
+  background-image: url("../assets/img/login-bg.png");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   .toolbar-background {
@@ -48,8 +48,16 @@ page-login {
 .facebook-btn {
   font-size: 1.4rem;
   background-color: #2d4f95;
+  span {
+    margin-right: 1rem;
+    margin-bottom: 3px;
+  }
 }
 .google-btn {
   font-size: 1.4rem;
   background-color: #dd4f3d;
+  span {
+    margin-right: 1rem;
+    margin-bottom: 2px;
+  }
 }

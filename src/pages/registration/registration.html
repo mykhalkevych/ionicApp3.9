@@ -1,0 +1,38 @@
+<ion-header>
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<div class="logo">
+		<img src="assets/imgs/logo.png" alt="logo" class="logo">
+	</div>
+
+	<form #registerForm="ngForm" novalidate>
+
+		<div class="input-field">
+			<span class="icon-ps-person"></span>
+			<ion-input type="text" placeholder="Имя" value=""></ion-input>
+		</div>
+		<div class="input-field">
+			<span class="icon-ps-person"></span>
+			<ion-input type="text" placeholder="Фамилия" value=""></ion-input>
+		</div>
+		<div class="input-field">
+			<span class="icon-ps-house"></span>
+			<ion-input type="text" placeholder="Город" value=""></ion-input>
+		</div>
+		<div class="input-field">
+			<span class="icon-ps-letter"></span>
+			<ion-input type="text" placeholder="Эл. почта" value=""></ion-input>
+		</div>
+
+
+		<button ion-button block type="submit">Зарегистрироваться</button>
+
+	</form>
+
+</ion-content>
