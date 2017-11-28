@@ -11,6 +11,9 @@ import { RegistrationPage } from '../pages/registration/registration';
 import { Facebook, FacebookLoginResponse } from '@ionic-native/facebook';
 import { GooglePlus } from '@ionic-native/google-plus';
 import { Geolocation } from '@ionic-native/geolocation';
+import { AdMobFree, AdMobFreeBannerConfig } from '@ionic-native/admob-free';
+import { SMS } from '@ionic-native/sms';
+import { Sim } from '@ionic-native/sim';
 
 
 
@@ -46,6 +49,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Facebook,
     GooglePlus,
     Geolocation,
+    AdMobFree,
+    SMS,
+    Sim,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
